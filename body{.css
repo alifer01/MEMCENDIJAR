@@ -1,0 +1,79 @@
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(FONDO5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    color: #fff;
+ }
+ 
+ .sql{
+position: relative;
+top: -50px;
+right: 365px;
+border-radius: 25px;
+
+ }
+ .contenedor{
+	justify-content: center;
+	display: grid;
+	height: 50px;
+}
+.btn{
+	border: 3px solid rgba(100, 100, 100, 0.1);
+	margin-bottom: 20px;
+	padding: 10px;
+	width: 200px;
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	border-radius: 6px;
+	cursor: pointer;
+	color: white;
+	background-size: 200%;
+	
+	
+}
+.btn1{
+ background-image: linear-gradient(to left, #00B7DA, #161569, #00B7DA);	
+position: relative;
+font:  300px;
+
+}
+.btn2{
+	background-image: linear-gradient(to left, #00B7DA, #B8DF57, #00B7DA);
+}
+.btn3{
+	background-image: linear-gradient(to left, #A950A1, #2D3A54, #A950A1);
+}
+.btn4{
+	background-image: linear-gradient(to left, #FF50F1, #2D6D54, #FF40F1);
+}
+.btn5{
+	background-image: linear-gradient(to left, #D702A1, #2DF642, #D702A1);
+}
+.btn6{
+	background-image: linear-gradient(to left, #F7A4C3, #6B45D2, #F7A4C3);
+}
+
+#contenedor{
+    position: relative;
+    min-width: 100px;
+    right: 550px;
+    
+  }
+  
+  #texto{
+    background-color: red;
+    width: 100%;
+    position: relative;
+     top: -60PX;
+}
+ul{
+position: relative;
+font: 100px;
+color: #2DF642;
+
+}

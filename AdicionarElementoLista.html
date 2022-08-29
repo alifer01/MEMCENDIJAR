@@ -1,0 +1,37 @@
+
+<h1>R E G I S T R O    D E   J U G A D O R E S</h1>
+<link rel="stylesheet" href="style 2.css">
+
+
+<ul class="lista">
+    <li>1.- JOSUE / 25 PUNTOS / 5:36 MINUTOS</li>
+    <li>2.- BOLON / 33 PUNTOS / 2:36 MINUTOS</li>
+    <li>3.- HUGO / 45 PUNTOS / 4:22 MINUTOS</li>
+</ul>
+
+<input id="campo"><button id="boton">Adicionar</button>
+
+<script>
+
+    var lista = document.querySelectorAll('li');
+
+    for(var i = 0; i < lista.length; i++) {
+        
+        lista[i].addEventListener('click', function() {
+
+               alert(this.textContent);
+        });
+    }
+
+    var boton = document.querySelector('#boton');
+    var input = document.querySelector('#campo');
+    var lista = document.querySelector('.lista');
+
+    boton.addEventListener('click',function() {
+        var li = document.createElement('li');
+        li.textContent = input.value;
+        lista.appendChild(li);
+    });
+
+</script>
+ 

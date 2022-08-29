@@ -1,0 +1,29 @@
+body{
+    background-color:  #c96b00;
+    
+    
+    }
+    h1{
+    border-radius: 8px;
+    position: relative;
+    color: rgb(20, 25, 46); 
+    left: 185px;
+    font-family:gothic;
+    font-size: 55px;
+    top: 0px;
+    text-shadow: 10px 10px 10px;
+    border-style:solid
+    }
+
+
+    header{
+    background-color: rgb(116, 255, 169);
+    position: relative;
+    right: 5px;
+    }
+
+
+menu{
+    border-style: double;
+}
+
